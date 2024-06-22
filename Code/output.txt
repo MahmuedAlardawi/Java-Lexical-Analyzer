@@ -1,0 +1,26 @@
+Output:
+
+Lexemes             Tokens              
+
+void                Keyword (void)      
+main                Identifier (main)   
+(                   Punctuation (Left Parenthesis)
+void                Keyword (void)      
+)                   Punctuation (Right Parenthesis)
+{                   Punctuation (Left Curly Brace)
+int                 Keyword (int)       
+a                   Identifier (a)      
+=                   Operator (Assignment)
+10                  Integer Literal     
+;                   Punctuation (Semicolon)
+int                 Keyword (int)       
+b                   Identifier (b)      
+=                   Operator (Assignment)
+20                  Integer Literal     
+;                   Punctuation (Semicolon)
+b                   Identifier (b)      
+=                   Operator (Assignment)
+a                   Identifier (a)      
+++                  Operator (Increment)
+;                   Punctuation (Semicolon)
+}                   Punctuation (Right Curly Brace)
